@@ -395,10 +395,8 @@ Shader "NoiseBall"
 
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassGBuffer.hlsl"
 
-            // Custom:
+            // Custom: Custom vertex shader
             #include "CustomVertex.hlsl"
-
-            // Custom: Shader entry points
             #pragma vertex CustomVert
             #pragma fragment Frag
 
@@ -429,10 +427,8 @@ Shader "NoiseBall"
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/LitData.hlsl"
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassDepthOnly.hlsl"
 
-            // Custom:
+            // Custom: Custom vertex shader
             #include "CustomVertex.hlsl"
-
-            // Custom: Shader entry points
             #pragma vertex CustomVert
             #pragma fragment Frag
 
@@ -477,10 +473,8 @@ Shader "NoiseBall"
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Lit/LitData.hlsl"
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassDepthOnly.hlsl"
 
-            // Custom:
+            // Custom: Custom vertex shader
             #include "CustomVertex.hlsl"
-
-            // Custom: Shader entry points
             #pragma vertex CustomVert
             #pragma fragment Frag
 
