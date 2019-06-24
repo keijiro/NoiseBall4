@@ -61,8 +61,8 @@ PackedVaryingsType CustomVert(Attributes input)
     float3 norm = normalize(cross(v2 - v1, v3 - v2));
 
     // Apply the transform matrix.
-    pos  = mul(_LocalToWorld, float4(pos, 1));
-    norm = mul(_LocalToWorld, norm);
+    pos = mul(_LocalToWorld, float4(pos, 1)).xyz;
+    norm = mul((float3x3)_LocalToWorld, norm);
 
     // Imitate a common vertex input.
     AttributesMesh am;
