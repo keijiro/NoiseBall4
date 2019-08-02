@@ -11,5 +11,5 @@ This is an updated version of [NoiseBall3] that shows how to use
 any mesh data to the render pipeline. The main difference from the previous
 implementation is that it supports [High Definition Render Pipeline][HDRP].
 
-[NoiseBall3]: https://github.com/keijiro/NoiseBall2
+[NoiseBall3]: https://github.com/keijiro/NoiseBall3
 [HDRP]: https://github.com/Unity-Technologies/ScriptableRenderPipeline/wiki/High-Definition-Render-Pipeline-overview
